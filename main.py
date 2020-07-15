@@ -1,7 +1,6 @@
 from fastapi import FastAPI, HTTPException, Response, Depends
 import schema
 from typing import List
-
 from sqlalchemy.orm import Session
 
 import crud
